@@ -1,0 +1,29 @@
+//Remove comments
+//This is a correctly formatted entry, HTML can be rendered.
+
+SQLi{
+short-title=SQLi;
+full-title=CWE-89 SQL Injection;
+ranking=Critical;
+impact=An attacker can read or modify an internal database. This can leak data such as credit card numbers, passwords, emails, and intellectual property. It could also leave result in tables being dropped.;
+remediation=<ol>
+  <li>Utilize parameterized queries or prepared statements to prevent SQL injection attacks.</li>
+  <li>Implement proper input validation and sanitization techniques.</li>
+  <li>Limit database privileges for application users to minimize the potential impact of SQLi attacks.</li>
+  <li>Regularly update and patch database management systems to address known vulnerabilities.</li>
+</ol><em>If this issue is the result of a WordPress plugin, either update the plugin or disable it until a patch is available.</em>;
+}
+HSTS{
+short-title=HSTS;
+full-title=CWE-523 Strict Transport Security not enforced;
+ranking=Low;
+impact=An attacker may be able to rewrite HTTPS links as HTTP so a user that follows a link to the site from an HTTP page will not use encryption. This would allow an attacker to eavesdrop on the user’s actions/sensitive data if they are suitably positioned on the network.;
+remediation=Enforce HTTPS by adding a response header with the name Strict-Transport-Security and the value max-age=expireTime. expireTime is how long in seconds browsers will remember that the site cannot only be accessed using HTTPS.;
+}
+VTLS{
+short-title=VTLS;
+full-title=Valid TLS Certificate;
+ranking=Information;
+impact=This server presented a valid TLS certificate.;
+remediation=N/A;
+}

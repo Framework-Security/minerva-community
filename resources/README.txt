@@ -1,0 +1,1 @@
+This folder contains resources necessary for reports to be generated. How you craft your template will determine what needs to be here. 

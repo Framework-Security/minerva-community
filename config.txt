@@ -1,0 +1,31 @@
+//////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////
+//Remove all comments, the generator is not programmed to ignore comments
+//This file will be the most common source of generation issues
+//It's made up of three sections, the overview, the scope, and the vulnerability details
+//The following is correctly formatted, duplicate entries are acceptable but there must be a
+//1:1 mapping of vulns in overview that reference the db shortname, to vuln details below
+//The number is number of occurrences referenced in the chart
+//////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////
+
+overview{
+client=Client Example;
+ptype=Type of pentest here;
+HSTS=1;
+VTLS=1;
+}
+scope{
+sample_client1;
+3.234.12.155=AWS Network Edge;
+frameworksec.com=Corporate Website;
+}
+HSTS{
+details=This affects https://www.frameworksec.com
+}
+VTLS{
+details=This affects https://www.frameworksec.com
+}
+
+
+

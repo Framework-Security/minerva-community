@@ -1,0 +1,281 @@
+html{
+	font-family: "Helvetica", sans-serif;
+}
+.mig img{
+	width: 40%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.bBox{
+	position: absolute;
+  background-color:#354959;
+	width:1275px;
+	top:725px;
+	height:862px;
+	padding-top:450px;
+	padding-left:290px;
+	font-size:275%;
+	color: white;
+	border-radius:4px;
+}
+.wBox{
+	position: absolute;
+	background-color: white;
+	border:4 px solid black;
+	top:480px;
+  width: 900px;
+  left:333;
+  font-size:300%;
+  text-align: center;
+  padding-top: 90px;
+  padding-bottom:90px;
+  line-height: 65px;
+}
+.wBox .sm{
+	font-size:90%;
+}
+.frontimg img{
+    position: absolute;
+    top:1650px;
+    left:35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:33%;
+}
+
+.rt{
+  position: absolute;
+  top: 750px;
+  font-size:350%;
+	height:250px;
+	text-align:right;
+  padding-top:75px;
+  padding-right:25px;
+  padding-left:300px;
+  background-color:#354959;
+  color: white;
+}
+.hImg img{
+	width:500px;
+	position: absolute;
+	top:500px;
+}
+.bBox .date{
+	font-size:75%;
+}
+.tv{
+	position: absolute;
+	left:49%;
+	padding-top:56%;
+	font-size:215%;
+	text-align: center;
+}
+.sHeader{
+	color:#354959;
+	font-size:300%;
+	padding:50px;
+}
+.sib{
+	font-size:250%;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom:10px;
+}
+.sText{
+	font-size:200%;
+	padding-left:50px;
+	padding-right:50px;
+}
+
+.rankings{
+	font-size:175%;
+	padding-left:50px;
+	padding-right:50px;
+}
+.tbp{
+	color: white;
+}
+.c{
+	color: darkred;
+}
+.h{
+	color: darkorange;
+}
+.m{
+	color: #c6c900;
+}
+.l{
+	color: darkgreen;
+}
+.i{
+	color:blue;
+}
+
+.embd-img img{
+	width:100%;
+}
+.imgdown img{
+	width:85%;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.imgdown70 img{
+	width:70%;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.imgdown60 img{
+	width:60%;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.imgdown50 img{
+	width:50%;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.imgdown30 img{
+	width:30%;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.chart-img img{
+	width:100%;
+}
+
+.vulnH{
+	font-size:233%;
+	color:#354959;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	text-align: center;
+	padding-top:125px;
+}
+
+.prepTable{
+	padding-top: 50px;
+}
+.prepTable table {
+  border-collapse: collapse;
+  width: 85%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.prepTable td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  font-size:175%;
+}
+
+.prepTable tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.prepTable th{
+	background-color:#354959;
+	color: #fff;
+}
+
+.scopeTable{
+	padding-top: 50px;
+}
+.scopeTable table {
+  border-collapse: collapse;
+  width: 85%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.scopeTable td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  font-size:175%;
+}
+
+.scopeTable tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.scopeTable th{
+	background-color:#354959;
+	color: #fff;
+}
+
+.vulnTable{
+	padding-top: 25px;
+}
+.vulnTable table {
+  border-collapse: collapse;
+  width: 85%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.vulnTable td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  font-size:175%;
+}
+
+.vulnTable tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.vulnTable th{
+	background-color:#354959;
+	color:#fff;
+}
+
+.vTable{
+	padding-top: 25px;
+}
+.vTable table {
+  border-collapse: collapse;
+  width: 85%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.vTable td, th {
+  border: 1px solid #000;
+  text-align: left;
+  padding: 8px;
+  font-size:175%;
+}
+
+.vTable th{
+	background-color:#354959;
+	color:#fff;
+}
+
+.num{
+	float: right;
+}
+
+.apxT{
+	font-size:115%;
+	padding-top:25px;
+	padding-bottom:10px;
+}
+
+@media all {
+.page-break { display: none; }
+}
+
+@media print {
+.page-break { display: block; page-break-before: always; }
+}
