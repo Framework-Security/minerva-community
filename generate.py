@@ -1,5 +1,7 @@
-import pdfkit
 import shutil
+import pdfkit
+config = pdfkit.configuration(wkhtmltopdf=shutil.which("wkhtmltopdf"))
+
 from datetime import datetime
 import fnmatch
 import fileinput
