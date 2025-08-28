@@ -25,7 +25,7 @@
 ---
 
 <p style="font-family:Lato;">
-Minerva Insights is a web-based, open-source reporting platform designed for security professionals. Instead of starting from scratch for every engagement, pentesters can build and maintain a finding database specific to each client. 
+Minerva Insights is an open-source reporting platform designed for security professionals. Instead of starting from scratch for every engagement, pentesters can build and maintain a finding database specific to each client. 
 
 Every finding includes:
 </p>
